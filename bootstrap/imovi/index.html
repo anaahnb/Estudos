@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>iMovi</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+            <div class="container py-3">
+                <a href="#" class="navbar-brand">
+                    <img src="img/imovi-icon.png" alt="iMovi">
+                    <span>iMovi</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-1g-lg-0">
+                        <li class="nav-items"><a href="#" class="nav-link active primary-color" aria-current="page">
+                                Home </a></li>
+                        <li class="nav-items"><a href="#" class="nav-link primary-color "> Projetos </a></li>
+                        <li class="nav-items"><a href="#" class="nav-link primary-color"> Contatos </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container" id="slider-container">
+            <div class="carousel slider" id="slider" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0"
+                        aria-current="true" aria-label="Slide 1">
+                    </button>
+
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2">
+                    </button>
+
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3">
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner-1.jpg" alt="Casa" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5> Casas planejadas </h5>
+                            <a href="#" class="btn btn-dark"> Ver projetos</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/banner-2.jpg" alt="Casa" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5> Projetos Complexos </h5>
+                            <a href="#" class="btn btn-dark"> Ver projetos</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/banner-3.jpg" alt="Casa" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5> Projetos inovadores </h5>
+                            <a href="#" class="btn btn-dark"> Ver projetos</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+                    <i class="bi bi-cheveon-compact-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+                    <i class="bi bi-cheveon-compact-right"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+            </div>
+            <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+                <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center">
+                                <i class="bi bi-box primary-color"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title primary-color">Projetos completos</h5>
+                                    <p class="card-text secondary-color">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <a href="#" class="btn btn-dark">Saber Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center">
+                                <i class="bi bi-layers primary-color"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title primary-color">Você participa também</h5>
+                                    <p class="card-text secondary-color">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <a href="#" class="btn btn-dark">Saber Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center">
+                                <i class="bi bi-lightning-charge"></i>
+                                <div class="card-body primary-color">
+                                    <h5 class="card-title primary-color">
+                                        Adiantamento de entregas
+                                    </h5>
+                                    <p class="card-text secondary-color">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                    <a href="#" class="btn btn-dark">Saber Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="featured-container">
+                <div class="col-12">
+                    <h2 class="title primary-color">Trabalhos em Destaque</h2>
+                    <p class="subtitle secondary-color">
+                        Conheça nossos projetos mais desafiadores
+                    </p>
+                </div>
+                <div class="col-12" id="featured-images">
+                    <div class="row g-4">
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-1.jpg" alt="Projeto 1" class="img-fluid" />
+                            <div class="banner-content">
+                                <p class="secondary-color">Categoria</p>
+                                <h3>Nome do Projeto</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-2.jpg" alt="Projeto 2" class="img-fluid" />
+                            <div class="banner-content">
+                                <p class="secondary-color">Categoria</p>
+                                <h3>Nome do Projeto</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-3.jpg" alt="Projeto 3" class="img-fluid" />
+                            <div class="banner-content">
+                                <p class="secondary-color">Categoria</p>
+                                <h3>Nome do Projeto</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-4.jpg" alt="Projeto 4" class="img-fluid" />
+                            <div class="banner-content">
+                                <p class="secondary-color">Categoria</p>
+                                <h3>Nome do Projeto</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-5.jpg" alt="Projeto 5" class="img-fluid" />
+                            <div class="banner-content">
+                                <p class="secondary-color">Categoria</p>
+                                <h3>Nome do Projeto</h3>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img src="img/project-6.jpg" alt="Projeto 6" class="img-fluid" />
+                            <div class="banner-content">
+                                <p class="secondary-color">Categoria</p>
+                                <h3>Nome do Projeto</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="info-container">
+                <div class="col-12">
+                    <h2 class="title primary-color">Detalhes Importantes</h2>
+                    <p class="subtitle secondary-color">
+                        Saiba mais sobre a experiência da nossa incrível equipe
+                    </p>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-5" id="info-banner">
+                            <img src="img/infobanner.jpg" alt="Informações" class="img-fluid" />
+                        </div>
+                        <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="title">Estes dados fazem a diferença:</h2>
+                                    <p class="subtitle secondary-color">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        Praesentium tempore fugit et iusto quisquam beatae impedit
+                                        nobis quas doloribus, atque, ut id similique eligendi, ab
+                                        soluta magnam maxime cum debitis.
+                                    </p>
+                                </div>
+                                <div class="col-12" id="info-numbers">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h3 class="primary-color">18</h3>
+                                            <p class="secondary-color">Anos na construção civil</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <h3 class="primary-color">95</h3>
+                                            <p class="secondary-color">Projetos executados</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <h3 class="primary-color">639</h3>
+                                            <p class="secondary-color">Clientes</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <a class="btn btn-dark">Saber Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="container-fluid bg-dark-color" id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12" id="footer-bottom">
+                            <div class="row justify-content-between">
+                                <p class="secondary-color">iMovi &copy; 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </main>
+</body>
+
+</html>
